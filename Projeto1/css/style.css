@@ -3,6 +3,10 @@
         padding: 0;
 }
 
+.red{
+        color: #f70000;
+}
+
 body{
 
         background-color: rgba(138, 138, 138, 0.863);
@@ -141,7 +145,7 @@ nav > a  {
 
 
 .imghtml{
-
+       
         position: absolute;
         left: 10px;
         max-width:175px;
