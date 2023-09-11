@@ -72,9 +72,13 @@ nav > a  {
 
 .p1{
 
-        height:400px;
+        height:550px;
         width:100%;
-        background-color: azure;
+        background-position: center;
+        background-size:cover;
+        
+        background-repeat: no-repeat;
+        background-image:url(/img/background.png);
 
 }
 
