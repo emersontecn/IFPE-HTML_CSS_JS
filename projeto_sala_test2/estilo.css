@@ -1,0 +1,209 @@
+body{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#html{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background: #ea7351;
+    height: 800px;
+    
+    
+
+}
+
+#html img {
+
+   
+    align-self: center;
+    
+}
+
+#html div {
+
+   
+    text-align: justify;
+    flex-basis: 548px;
+    align-self: center;
+    height: 250px;
+
+}
+
+#html h2,h3{
+
+    text-align: center;
+}
+
+#html #btn{
+
+    display: flex;
+    color: white;
+    height: auto;
+    justify-content: center;
+
+}
+
+/* css */
+
+
+#css{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction:row-reverse ;
+    background-color: #5173ea;
+    height: 800px;
+   
+}
+
+#css img {
+
+   
+    align-self: center;
+    padding: 39px;
+    
+    
+}
+
+#css div {
+
+   
+    text-align: justify;
+    flex-basis: 546px;
+    align-self: center;
+    height: 250px;
+
+}
+
+#css h2,h3{
+
+    text-align: center;
+}
+
+#css #btn{
+
+    display: flex;
+    color: white;
+    height: auto;
+    justify-content: center;
+
+}
+
+
+/* js */
+
+
+#js {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ebb553;
+    height: 800px;
+    
+}
+
+#js img {
+
+   
+    align-self: center;
+    padding: 5px;
+    
+    
+}
+
+#js div {
+
+   
+    text-align: justify;
+    flex-basis: 530px;
+    align-self: center;
+    height: 250px;
+
+}
+
+#js h2,h3{
+
+    text-align: center;
+}
+
+#js #btn{
+
+    display: flex;
+    color: white;
+    height: auto;
+    justify-content: center;
+
+}
+    
+
+/* Links */
+
+
+#Links{
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   height: 600px;
+   background-color: #c4c4c4;
+
+ 
+}
+
+
+ #Links h2{
+    
+    
+    
+    align-self: flex-start;
+    justify-self: center;
+    
+ }    
+
+/* contato */
+
+
+#contato{
+
+    background-color: #65948b;
+    
+}
+
+#contato h2{
+
+    text-align: center;
+    margin: auto;
+    
+}
+
+#contato{
+
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+
+
+#contato #btn {
+
+    text-align: center;
+    color: white;
+   
+}
+
+#contato #btn input{
+
+    text-align: center;
+    color: white;
+    background-color: black;
+   
+}
