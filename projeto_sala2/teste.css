@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    border: 1px solid black;
+    
+}
+
+h1:hover{
+    animation-name: rodar;
+    animation-duration: 1s;
+}
+
+@keyframes rodar {
+    0%   {rotate: 0deg;}
+    13%   {rotate: 45deg;}
+    26%   {rotate: 90deg;}
+    39%   {rotate: 135deg;}
+    50%   {rotate: 180deg;}
+    63%   {rotate: 225deg;}
+    76%   {rotate: 270deg;}
+    89%   {rotate: 315deg;}
+    100%   {rotate: 360deg;}
+  }

@@ -9,10 +9,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background: #ea7351;
     height: 800px;
-    
-    
 
 }
 
@@ -56,7 +53,6 @@ body{
     flex-wrap: wrap;
     justify-content: space-around;
     flex-direction:row-reverse ;
-    background-color: #5173ea;
     height: 800px;
    
 }
@@ -103,7 +99,7 @@ body{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    background-color: #ebb553;
+ 
     height: 800px;
     
 }
@@ -151,7 +147,6 @@ body{
    justify-content: space-around;
    align-items: center;
    height: 600px;
-   background-color: #c4c4c4;
 
  
 }
@@ -171,8 +166,7 @@ body{
 
 #contato{
 
-    background-color: #65948b;
-    
+ 
 }
 
 #contato h2{
