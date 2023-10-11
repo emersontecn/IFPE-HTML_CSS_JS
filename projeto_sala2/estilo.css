@@ -46,11 +46,12 @@ a:visited {
     text-decoration: none;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
-main, section {
+main,
+section {
     border: 1px solid rgb(0, 0, 0);
     height: 450px;
 }
@@ -66,12 +67,12 @@ main {
     align-items: center;
 }
 
-main h1{
+main h1 {
     margin: 20px;
-    font-size: 40px; 
+    font-size: 40px;
 }
 
-main h2{
+main h2 {
     margin: 20px;
     font-size: 30px;
 }
@@ -79,7 +80,7 @@ main h2{
 .HTML5 {
     color: #F16529;
     font-style: normal;
-    
+
 }
 
 .CSS3 {
@@ -99,7 +100,7 @@ main h2{
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-    background-image: linear-gradient(90deg,#EA7152 0%,#f38354 60%,#e9d9d2 100%);
+    background-image: linear-gradient(90deg, #EA7152 0%, #f38354 60%, #e9d9d2 100%);
     height: auto;
 }
 
@@ -118,11 +119,12 @@ main h2{
 #css {
 
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
     height: auto;
+    background-image: linear-gradient(90deg, #5172EA 0%, #527AEF 60%, #5482F3 100%);
 }
 
 #css div {
@@ -132,7 +134,7 @@ main h2{
     align-self: center;
     height: 250px;
     text-align: center;
-    
+
 
 }
 
@@ -145,6 +147,7 @@ main h2{
     justify-content: space-around;
     flex-wrap: wrap;
     height: auto;
+    background-image: linear-gradient(90deg, #EBB653 0%, #EFC152 60%, #F3CA52 100%);
 }
 
 #js div {
@@ -163,10 +166,128 @@ main h2{
     margin: 30px;
 }
 
-.botao1{
+
+
+.botao1 {
+
     background-color: black;
     color: white;
     border-radius: 10px;
     padding: 10px;
     font-size: 20px;
+}
+
+
+
+#Links {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #CECECE;
+    flex-direction: column;
+    min-height: 500px;
+
+}
+
+#Links div {
+
+  
+    display: flex;
+   width: 80%;
+}
+
+#Links #lin {
+
+    display: flex;
+    border: 1px solid black;
+    
+
+}
+
+
+#Links ul {
+
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    
+
+}
+
+
+#contato {
+
+    background-image: linear-gradient(90deg, #629289 0%, #719C95 60%, #7BA39D 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+#contato h2 {
+
+    text-align: center;
+    margin: auto;
+
+}
+
+
+#contato #btn {
+
+    text-align: center;
+    color: white;
+
+}
+
+#contato #btn input {
+
+    text-align: center;
+    color: white;
+    background-color: black;
+
+}
+
+#f {
+    display: flex;
+
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+footer div {
+    background-color: black;
+    display: flex;
+   
+}
+
+footer ul {
+    display: flex;
+
+
+}
+
+footer li {
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+   
+}
+
+footer #ass{
+   
+    font-size: 2em;
+    color: white;
+    align-items: center;
+    margin-left: 60px;
+    
+   
 }
