@@ -187,21 +187,22 @@ main h2 {
     background-color: #CECECE;
     flex-direction: column;
     min-height: 500px;
-
+    
 }
 
 #Links div {
 
-  
+    
     display: flex;
-   width: 80%;
+    width: 85%;
+    justify-content: center;
 }
 
 #Links #lin {
-
+ 
     display: flex;
-    border: 1px solid black;
-    
+    margin-bottom: 50px;
+    font-size: 1.5em;
 
 }
 
@@ -211,7 +212,6 @@ main h2 {
     display: flex;
     flex-direction: column;
     list-style: none;
-    
 
 }
 
@@ -259,14 +259,14 @@ footer {
     background-color: black;
     display: flex;
     justify-content: space-between;
-  flex-wrap: wrap;
+    flex-wrap: wrap;
 }
 
 
 footer div {
     background-color: black;
     display: flex;
-   
+
 }
 
 footer ul {
@@ -279,15 +279,15 @@ footer li {
     margin-left: 25px;
     margin-right: 25px;
     display: flex;
-   
+
 }
 
-footer #ass{
-   
+footer #ass {
+
     font-size: 2em;
     color: white;
     align-items: center;
     margin-left: 60px;
-    
-   
+
+
 }
