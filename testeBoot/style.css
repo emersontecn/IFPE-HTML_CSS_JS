@@ -1,0 +1,11 @@
+h1{
+    margin: 0px;
+}
+header{
+    background-color: green;
+}
+
+main{
+    background-color: aquamarine;
+    min-height: 600px;
+}
